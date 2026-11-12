@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Three-module course plan for Google Cloud DevOps: Release and Rollback Patterns" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#5f6368"/>
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <clipPath id="clip-0"><rect x="24"  y="72" width="220" height="320" rx="10"/></clipPath>
+    <clipPath id="clip-1"><rect x="270" y="72" width="220" height="320" rx="10"/></clipPath>
+    <clipPath id="clip-2"><rect x="516" y="72" width="220" height="320" rx="10"/></clipPath>
+  </defs>
+
+  <!-- Page background -->
+  <rect x="0" y="0" width="760" height="420" fill="#f8f9fa"/>
+
+  <!-- Course title and meta -->
+  <text x="24" y="28" font-size="16" font-weight="700" fill="#202124">Google Cloud DevOps: Release &amp; Rollback Patterns</text>
+  <text x="24" y="50" font-size="11.5" fill="#5f6368">90 min · Intermediate · Cloud Build · Cloud Deploy · GKE · Cloud Run · Cloud Functions</text>
+
+  <!-- Arrows between module cards -->
+  <line x1="244" y1="97" x2="270" y2="97" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="97" x2="516" y2="97" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ═══════════════════ MODULE 1 ═══════════════════ -->
+  <rect x="24" y="72" width="220" height="320" rx="10" fill="white" filter="url(#shadow)"/>
+  <g clip-path="url(#clip-0)">
+    <rect x="24" y="72"  width="220" height="320" fill="white"/>
+    <rect x="24" y="72"  width="220" height="50"  fill="#1a73e8"/>
+    <rect x="24" y="278" width="220" height="114" fill="#e8f0fe"/>
+    <line x1="24" x2="244" y1="278" y2="278" stroke="#d2e3fc" stroke-width="1"/>
+  </g>
+  <rect x="24" y="72" width="220" height="320" rx="10" fill="none" stroke="#dadce0" stroke-width="1"/>
+  <!-- Header text -->
+  <text x="38"  y="88"  font-size="10" font-weight="500" fill="white" fill-opacity="0.75">MODULE 1 · KNOW</text>
+  <text x="134" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="white">Release Patterns &amp; Targets</text>
+  <!-- Enabling objectives -->
+  <text x="38" y="138" font-size="11.5" fill="#202124">· Match deployment targets</text>
+  <text x="38" y="155" font-size="11.5" fill="#202124">  to release patterns</text>
+  <text x="38" y="179" font-size="11.5" fill="#202124">· Compare canary, blue/green,</text>
+  <text x="38" y="196" font-size="11.5" fill="#202124">  traffic-shift &amp; staged</text>
+  <!-- Deployment targets callout -->
+  <rect x="38" y="210" width="172" height="58" rx="4" fill="#f1f3f4"/>
+  <text x="48" y="225" font-size="10.5" fill="#5f6368">Deployment targets:</text>
+  <text x="48" y="241" font-size="10.5" fill="#5f6368">Cloud Run · GKE · Functions</text>
+  <text x="48" y="257" font-size="10.5" fill="#5f6368">Compute Engine</text>
+  <!-- Terminal section -->
+  <text x="134" y="296" text-anchor="middle" font-size="9.5" fill="#1a73e8" fill-opacity="0.75">TERMINAL OBJECTIVE</text>
+  <text x="134" y="318" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1a73e8">Terminal 1 (part)</text>
+  <text x="134" y="338" text-anchor="middle" font-size="11" fill="#5f6368">Apply release strategies</text>
+
+  <!-- ═══════════════════ MODULE 2 ═══════════════════ -->
+  <rect x="270" y="72" width="220" height="320" rx="10" fill="white" filter="url(#shadow)"/>
+  <g clip-path="url(#clip-1)">
+    <rect x="270" y="72"  width="220" height="320" fill="white"/>
+    <rect x="270" y="72"  width="220" height="50"  fill="#7b1fa2"/>
+    <rect x="270" y="278" width="220" height="114" fill="#f3e8fd"/>
+    <line x1="270" x2="490" y1="278" y2="278" stroke="#e1bee7" stroke-width="1"/>
+  </g>
+  <rect x="270" y="72" width="220" height="320" rx="10" fill="none" stroke="#dadce0" stroke-width="1"/>
+  <text x="284" y="88"  font-size="10" font-weight="500" fill="white" fill-opacity="0.75">MODULE 2 · EXECUTE</text>
+  <text x="380" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="white">Pipeline Control &amp; Execution</text>
+  <text x="284" y="138" font-size="11.5" fill="#202124">· Cloud Build &amp; Cloud Deploy</text>
+  <text x="284" y="155" font-size="11.5" fill="#202124">  approvals &amp; pipeline gates</text>
+  <text x="284" y="179" font-size="11.5" fill="#202124">· Map staged promotion &amp;</text>
+  <text x="284" y="196" font-size="11.5" fill="#202124">  validation checkpoints</text>
+  <text x="284" y="220" font-size="11.5" fill="#202124">· Artifact trust &amp; rollback</text>
+  <text x="284" y="237" font-size="11.5" fill="#202124">  points in the release flow</text>
+  <text x="380" y="296" text-anchor="middle" font-size="9.5" fill="#7b1fa2" fill-opacity="0.75">TERMINAL OBJECTIVE</text>
+  <text x="380" y="318" text-anchor="middle" font-size="11.5" font-weight="600" fill="#7b1fa2">Terminal 1 (part)</text>
+  <text x="380" y="338" text-anchor="middle" font-size="11" fill="#5f6368">Apply release strategies</text>
+
+  <!-- ═══════════════════ MODULE 3 ═══════════════════ -->
+  <rect x="516" y="72" width="220" height="320" rx="10" fill="white" filter="url(#shadow)"/>
+  <g clip-path="url(#clip-2)">
+    <rect x="516" y="72"  width="220" height="320" fill="white"/>
+    <rect x="516" y="72"  width="220" height="50"  fill="#2e7d32"/>
+    <rect x="516" y="278" width="220" height="114" fill="#e6f4ea"/>
+    <line x1="516" x2="736" y1="278" y2="278" stroke="#c8e6c9" stroke-width="1"/>
+  </g>
+  <rect x="516" y="72" width="220" height="320" rx="10" fill="none" stroke="#dadce0" stroke-width="1"/>
+  <text x="530" y="88"  font-size="10" font-weight="500" fill="white" fill-opacity="0.75">MODULE 3 · RECOVER</text>
+  <text x="626" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="white">Validation &amp; Recovery</text>
+  <text x="530" y="138" font-size="11.5" fill="#202124">· Define validation signals</text>
+  <text x="530" y="162" font-size="11.5" fill="#202124">· Select rollback options</text>
+  <text x="530" y="179" font-size="11.5" fill="#202124">  by deployment target</text>
+  <text x="530" y="203" font-size="11.5" fill="#202124">· Rollback, retry,</text>
+  <text x="530" y="220" font-size="11.5" fill="#202124">  or forward-fix decisions</text>
+  <text x="530" y="244" font-size="11.5" fill="#202124">· Document recovery handoff</text>
+  <text x="626" y="296" text-anchor="middle" font-size="9.5" fill="#2e7d32" fill-opacity="0.75">TERMINAL OBJECTIVE</text>
+  <text x="626" y="318" text-anchor="middle" font-size="11.5" font-weight="600" fill="#2e7d32">Terminal 2</text>
+  <text x="626" y="338" text-anchor="middle" font-size="11" fill="#5f6368">Plan rollback &amp; recovery</text>
+
+  <!-- Bottom tagline -->
+  <text x="380" y="408" text-anchor="middle" font-size="11" fill="#80868b">Know · Execute · Recover — 3-module learning journey · 90 minutes</text>
+</svg>
